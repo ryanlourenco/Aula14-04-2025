@@ -12,7 +12,7 @@ class Produto {
         this.preco = preco;
     }
 
-    @Override
+
     public String toString() {
         return "ID: " + id + " | Nome: " + nome + " | Preço: R$ " + preco;
     }
@@ -32,7 +32,7 @@ class GerenciadorProdutos {
             System.out.print("Escolha uma opção: ");
 
             int opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir o caractere de nova linha
+            scanner.nextLine();
 
             switch (opcao) {
                 case 1:
